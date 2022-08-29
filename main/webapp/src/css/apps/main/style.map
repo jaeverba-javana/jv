@@ -1,0 +1,12 @@
+{
+	"version": 3,
+	"file": "style.css",
+	"sources": [
+		"../../../js/apps/main/style.scss"
+	],
+	"sourcesContent": [
+		"/*vacio por el momento*/"
+	],
+	"names": [],
+	"mappings": "AAAA,wBAAwB"
+}

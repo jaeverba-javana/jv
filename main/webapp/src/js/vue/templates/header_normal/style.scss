@@ -1,0 +1,29 @@
+
+
+    /* -------------------- header - INICIO -------------------- */
+    #header {
+        width: 100%;
+        height: 100%;
+    }
+    #template_header_perfil_contenedor {
+        width: 100%;
+        height: 60px;
+        
+        z-index: 2;
+        
+        box-shadow: 0 0 10px black, 0 0 20px #0006;
+        
+        position: fixed;
+        left: 0;
+        top: 0;
+    }
+    #template_header_nav_contenedor {
+        height: 60px;
+        z-index: 1;
+        
+        box-shadow: 0 0 10px black, 0 0 20px #0006;
+    }
+    /* -------------------- header - FIN -------------------- */
+
+
+

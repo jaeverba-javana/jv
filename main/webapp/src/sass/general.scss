@@ -1,0 +1,101 @@
+:root {
+    --color-background-background: #000;
+    --color-background-barras: #fff;
+    --color-background-perfil: #fff;
+}
+
+html {
+    -webkit-overflow-scrolling: auto;
+    -webkit-text-size-adjust: 100%;
+    box-sizing: border-box;
+    height: 100%;
+    /*overflow-y: scroll;*/
+    touch-action: manipulation;
+    font-family: "louis george cafe";
+    display: block;
+
+    body {
+        font-size: 100%;
+    }
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+*, :after, :before, button, button:focus, input, textarea {
+    -webkit-tap-highlight-color: transparent;
+    box-sizing: inherit;
+    font-family: din-round,sans-serif;
+    outline: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    user-select: none;
+}
+
+
+body, ul, li, ol, div, h1, h2, h3, h4, h5, h6, p {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
+    direction: ltr;
+}
+ol, ul{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+
+
+
+
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    background-color: var(--color-background-background);
+    display: block;
+}
+
+
+    
+    
+    
+    
+/* ____________________ FUENTES - INICIO ____________________ */
+h1, h2, h3, h4, h5, h6, p {
+    font-family: nimbus-sans, sans-serif;
+}
+h1.gordo {
+ 	font-family: cubano, sans-serif;
+}
+/* ____________________ FUENTES - FIN ____________________ */
+    
+    
+
+
+/**/
+body,
+body > div,
+body > div > div {
+    min-height: 100vh;
+}
+
+#contenedor {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#cuerpo_contenedor {
+    width: 100%;
+    max-width: 1150px;
+    flex-grow: 1;
+    align-self: center;
+
+    > * {
+        width: 100%;
+        height: 100%;
+    }
+}
