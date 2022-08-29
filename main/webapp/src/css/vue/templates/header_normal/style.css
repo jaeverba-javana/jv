@@ -1,11 +1,13 @@
 /* -------------------- header - INICIO -------------------- */
-/* line 4, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/header_normal/style.scss */
+/* line 5, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/header_normal/style.sass */
 #header {
   width: 100%;
   height: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
-/* line 8, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/header_normal/style.scss */
+/* line 12, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/header_normal/style.sass */
 #template_header_perfil_contenedor {
   width: 100%;
   height: 60px;
@@ -16,13 +18,17 @@
   top: 0;
 }
 
-/* line 20, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/header_normal/style.scss */
+/* line 22, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/header_normal/style.sass */
+#template_header_main_contenedor {
+  flex-grow: 1;
+}
+
+/* line 26, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/header_normal/style.sass */
 #template_header_nav_contenedor {
   height: 60px;
   z-index: 1;
   box-shadow: 0 0 10px black, 0 0 20px #0006;
+  /* -------------------- header - FIN -------------------- */
 }
-
-/* -------------------- header - FIN -------------------- */
 
 /*# sourceMappingURL=style.css.map */

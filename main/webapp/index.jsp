@@ -51,11 +51,7 @@
 	
 	<body id="body">
 		<div id="contenedor_principal">
-			<div id="contenedor">
-				<div id=template_header_contenedor>
-					<template_header_normal></template_header_normal>
-				</div>
-			</div>
+			<div id="contenedor"></div>
 		</div>
 		
 		

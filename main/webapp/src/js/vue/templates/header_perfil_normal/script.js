@@ -13,9 +13,7 @@ export default function (app) {
             }
         },
 
-        template: [
-			<%@include file="template.jsp"%>
-		].join('')
+        template: '<%@include file="template.html"%>'
     })
 
     //template_menu(app)

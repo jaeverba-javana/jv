@@ -6,8 +6,6 @@
                 }
             },
 
-            template: [
-				<%@include file="template.html"%>
-            ].join('') 
+            template: '<%@include file="template.html"%>'
         })
     }

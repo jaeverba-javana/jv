@@ -2,11 +2,11 @@
 	"version": 3,
 	"file": "style.css",
 	"sources": [
-		"../../../../js/vue/apps/main/style.scss"
+		"../../../../js/vue/apps/main/style.sass"
 	],
 	"sourcesContent": [
-		"/*vacio por el momento*/"
+		"/* ----------------------------------- app main - INICIO ----------------------------------- */\n\n#template_header_container {\n    height: 100vh; }\n\n/* ----------------------------------- app main - FIN ----------------------------------- */\n"
 	],
 	"names": [],
-	"mappings": "AAAA,wBAAwB"
+	"mappings": "AAAA,+FAA+F;;AAE/F,AAAA,0BAA0B,CAAC;EACvB,MAAM,EAAE,KAAK;CAAG;;AAEpB,4FAA4F"
 }

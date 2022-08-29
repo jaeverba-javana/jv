@@ -10,9 +10,7 @@
                 }
             },
 
-            template: [
-				<%@include file="template.jsp"%>
-            ].join('')
+            template: '<%@include file="template.html"%>'
         })
 
         header_perfil_normal(app);

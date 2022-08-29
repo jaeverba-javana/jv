@@ -30,8 +30,6 @@ export default function(app) {
 			nab_items[1].click(function() {console.log('segundo intento de darle click, exitoso')})
 		},
 
-        template: [
-			<%@include file="template.html"%>
-        ].join('') 
+        template: '<%@include file="template.html"%>'
     })
 }
