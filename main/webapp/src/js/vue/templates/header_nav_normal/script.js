@@ -18,15 +18,6 @@ export default function(app) {
 				console.log('segundo intento de darle click, exitoso')
 			},
 		},
-		
-		computed: {
-		},
-		
-		beforeCreate() {
-		},
-		
-		mounted() {
-		},
 
 		beforeUpdate() {
 			//this.cambios()

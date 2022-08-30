@@ -64,7 +64,8 @@
 			"imports": {
 				"engine": "<%=raiz %>/src/js/engine.js",
 				"jquery": "<%=raiz %>/mods/jquery/dist/jquery.js",
-				"vue": "<%=raiz %>/mods/vue/dist/vue.esm-browser.js"
+				"vue": "<%=raiz %>/mods/vue/dist/vue.esm-browser.js",
+				"MCU": "<%=raiz %>/mods/@material/material-color-utilities/dist/index.js"
 			}
 		}
 		</script>
