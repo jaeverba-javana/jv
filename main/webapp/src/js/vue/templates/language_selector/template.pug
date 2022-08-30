@@ -1,0 +1,9 @@
+#template_language_selector
+    .oscuro(:class='classes.oscuro' @click='click')
+
+    .language_selector_menu(:style='menu_style')
+        .default(@click='click()')
+            template_language_selector_item(:elemento='engine.idioma()' :header='true')
+        
+        .options
+            template_language_selector_item(v-for='item in engine.idiomas' :elemento='item' @click='cambiar(item.id)')

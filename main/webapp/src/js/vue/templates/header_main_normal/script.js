@@ -1,4 +1,4 @@
-    export default function(app) {
+    export default function(app, engine) {
         app.component('template_header_main', {
             data() {
                 return {

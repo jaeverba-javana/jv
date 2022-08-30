@@ -29,7 +29,7 @@ public class Idiomas {
 	
 	private Idiomas[] listadoConBanderas() {
 		Idiomas[] idiomas = {
-				new Idiomas("spanish", "es", Const.ROOT+"/src/img/svg/banderas/SVG/Espana_cuadrado_sin_escudo.svg"),
+				new Idiomas("zspanish", "es", Const.ROOT+"/src/img/svg/banderas/SVG/Espana_cuadrado_sin_escudo.svg"),
 				new Idiomas("english", "en", Const.ROOT+"/src/img/svg/banderas/SVG/Inglaterra_cuadrado.svg")
 		};
 		

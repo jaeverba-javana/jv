@@ -6,6 +6,9 @@
 //        import template_perfil from '/templates/script.js?nombre=header_perfil_perfil_nosession'
 //<?php } ?>
 
+import template_language_selector from '<%=raiz %>/src/js/vue/templates/language_selector/'
+import { engine } from 'engine'
+
 export default function (app) {
     app.component('template_header_perfil_normal', {
         data() {
@@ -16,6 +19,6 @@ export default function (app) {
         template: '<%@include file="template.html"%>'
     })
 
-    //template_menu(app)
+    template_language_selector(app)
     //template_perfil(app)
 }

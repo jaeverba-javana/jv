@@ -1,4 +1,8 @@
 import {createApp} from 'vue'
+import 'jquery'
+import {engine} from 'engine'
+
+//import {engine} from 'engine'
 //import router from '/javier_vergara/router/'
 
 import header_normal from '<%=raiz %>/src/js/vue/templates/header_normal/'
@@ -6,20 +10,7 @@ import header_normal from '<%=raiz %>/src/js/vue/templates/header_normal/'
 var mainApp = createApp({
 	data() {return{
 		mensaje: "este es mi mensaje",
-
-		engine: {
-			idiomas: [
-				{
-					id: "es",
-					idioma: "español",
-					img: "jv/src/img/svg/banderas/SVG/Espana_cuadrado_sin_escudo.svg"
-				} , {
-					id: "en",
-					idioma: "english",
-					img: "jv/src/img/svg/banderas/SVG/Inglaterra_cuadrado.svg"
-				}
-			]
-		}
+		engine
 	}},
 
     template: '<%@include file="template.html"%>'
@@ -28,3 +19,26 @@ var mainApp = createApp({
 header_normal(mainApp)
 
 mainApp.mount('#contenedor')
+
+
+let ls = 0, abajo = false
+
+window.addEventListener('scroll', function(e) {
+	let as = window.scrollY
+	
+	if (abajo) {
+		if (as < window.innerHeight-120) {
+			$('#template_header_nav_contenedor').removeClass('paso')
+
+			abajo = false
+		}
+	} else {
+		if (as >= window.innerHeight-120) {
+			$('#template_header_nav_contenedor').addClass('paso')
+
+			abajo = true
+		}
+	}
+	
+	ls = as
+})

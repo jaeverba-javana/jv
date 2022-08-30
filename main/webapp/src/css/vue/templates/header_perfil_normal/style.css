@@ -26,18 +26,24 @@
 }
 
 /* line 26, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/header_perfil_normal/style.sass */
+#template_header_perfil > div > div.lateral-l > div {
+  height: 60px;
+  width: 300px;
+}
+
+/* line 30, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/header_perfil_normal/style.sass */
 #template_header_perfil > div > div.centro {
   height: 100%;
   display: flex;
   align-items: center;
 }
 
-/* line 31, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/header_perfil_normal/style.sass */
+/* line 35, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/header_perfil_normal/style.sass */
 #template_header_perfil > div > div.centro > a {
   height: 80%;
 }
 
-/* line 34, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/header_perfil_normal/style.sass */
+/* line 38, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/header_perfil_normal/style.sass */
 #template_header_perfil > div > div.centro > a > img {
   height: 100%;
 }

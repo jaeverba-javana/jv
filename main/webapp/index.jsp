@@ -34,7 +34,7 @@
 
 <!DOCTYPE html>
 
-<html lang="<%=idioma %>" translate="no">
+<html id='html' lang="<%=idioma %>" translate="no">
 	<head>
 		<title><%= idioma_page_title %></title>
 		
@@ -62,6 +62,7 @@
 		<script type="importmap">
 		{
 			"imports": {
+				"engine": "<%=raiz %>/src/js/engine.js",
 				"jquery": "<%=raiz %>/mods/jquery/dist/jquery.js",
 				"vue": "<%=raiz %>/mods/vue/dist/vue.esm-browser.js"
 			}

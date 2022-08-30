@@ -1,3 +1,4 @@
+@charset "UTF-8";
 /* -------------------- header - INICIO -------------------- */
 /* line 5, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/header_normal/style.sass */
 #header {
@@ -31,7 +32,13 @@
   position: absolute;
   bottom: 0;
   width: 100%;
-  box-shadow: 0 0 10px black, 0 0 20px #0006;
+  box-shadow: 0 0 10px black, 0 0 20px #0006 ¨;
+}
+
+/* line 40, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/header_normal/style.sass */
+#template_header_nav_contenedor.paso {
+  position: fixed;
+  top: 60px;
   /* -------------------- header - FIN -------------------- */
 }
 
