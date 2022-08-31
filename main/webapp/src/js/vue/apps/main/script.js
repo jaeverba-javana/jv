@@ -6,6 +6,7 @@ import {engine} from 'engine'
 //import router from '/javier_vergara/router/'
 
 import header_normal from '<%=raiz %>/src/js/vue/templates/header_normal/'
+import footer_normal from '<%=raiz %>/src/js/vue/templates/footer_normal/'
 
 var mainApp = createApp({
 	data() {return{
@@ -17,6 +18,7 @@ var mainApp = createApp({
 })
 
 header_normal(mainApp)
+footer_normal(mainApp)
 
 mainApp.mount('#contenedor')
 

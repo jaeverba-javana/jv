@@ -24,7 +24,6 @@
 
 /* line 21, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/language_selector/style.sass */
 #template_language_selector > div.language_selector_menu {
-  width: 300px;
   height: 60px;
   overflow: hidden;
   position: fixed;

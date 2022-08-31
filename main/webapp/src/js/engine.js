@@ -1,16 +1,36 @@
 import {reactive} from 'vue'
-import { Hct } from "MCU";
+import { Hct as HCT, argbFromHex, themeFromSourceColor, applyTheme } from "MCU";
 
 
 
-// Simple demonstration of Hct.
-const color = Hct.fromInt(0xff4285f4);
+// Simple demonstration of HCT.
+const color = HCT.fromInt(0xff4285f4);
 console.log(`Hue: ${color.hue}`);
 console.log(`Chrome: ${color.chroma}`);
 console.log(`Tone: ${color.tone}`);
 
 
 
+
+//import { argbFromHex, themeFromSourceColor, applyTheme } from "@material/material-color-utilities";
+
+// Get the theme from a hex color
+const theme = themeFromSourceColor(argbFromHex('#f82506'), [
+  {
+    name: "custom-1",
+    value: argbFromHex("#ff0000"),
+    blend: true,
+  },
+]);
+
+// Print out the theme as JSON
+console.log(JSON.stringify(theme, null, 2));
+
+// Check if the user has dark mode turned on
+const systemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
+
+// Apply the theme to the body by updating custom properties for material tokens
+applyTheme(theme, {target: document.body, dark: systemDark});
 
 
 
@@ -56,11 +76,11 @@ export var engine = reactive({
         {
             id: "es",
             idioma: "español",
-            img: "/jv/src/img/svg/banderas/SVG/Espana_cuadrado.svg"
+            img: "/src/img/svg/banderas/SVG/Espana_cuadrado.svg"
         } , {
             id: "en",
             idioma: "english",
-            img: "/jv/src/img/svg/banderas/SVG/Inglaterra_cuadrado.svg"
+            img: "/src/img/svg/banderas/SVG/Inglaterra_cuadrado.svg"
         }
     ],
     idioma(id) {
