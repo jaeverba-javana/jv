@@ -1,4 +1,4 @@
 <%! 
 	final String page_name = "Javier Vergara";
-	final String raiz = "";
+	final String raiz = "/jv";
 %>

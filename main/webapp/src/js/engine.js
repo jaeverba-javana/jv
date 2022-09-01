@@ -76,11 +76,11 @@ export var engine = reactive({
         {
             id: "es",
             idioma: "español",
-            img: "/src/img/svg/banderas/SVG/Espana_cuadrado.svg"
+            img: "/jv/src/img/svg/banderas/SVG/Espana_cuadrado.svg"
         } , {
             id: "en",
             idioma: "english",
-            img: "/src/img/svg/banderas/SVG/Inglaterra_cuadrado.svg"
+            img: "/jv/src/img/svg/banderas/SVG/Inglaterra_cuadrado.svg"
         }
     ],
     idioma(id) {

@@ -1,6 +1,8 @@
-from tomcat
+from tomcat:10.0.23
 
-copy build/jv.war /usr/local/tomcat/webapps/jv.war
+label maintainer="jaeverba@gmil.com"
+
+copy jv.war /usr/local/tomcat/webapps/
 
 
 
