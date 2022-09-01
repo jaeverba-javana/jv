@@ -8,7 +8,7 @@
         
         <meta name="author" content="Javier Vergara">
         <meta name="description" content="---pendiente---"/>
-        <meta name="keywords" content="diseÃ±o, diseÃ±ador, javier, vergara, pÃ¡gina, personal, design, designer, web, page, own" />
+        <meta name="keywords" content="diseño, diseñador, javier, vergara, página, personal, design, designer, web, page, own" />
         
         <meta name="twitter:card" content="sumary_large_image">
         <meta name="twitter:site" content="<%= page_name %>">
@@ -24,7 +24,7 @@
         <meta property="og:description" content="--pendiente--" />
         <meta property="og:site_name" content="<%= page_name %>" />
         <meta property="og:image:type" content="image/png">
-        <meta property="og:image:width" content="2000px">
-        <meta property="og:image:height" content="3800px">
+        <meta property="og:image:width" content="3800px">
+        <meta property="og:image:height" content="2000px">
         
         <!--link rel=canonical href=https://www.creative-tim.com/product/vue-paper-dashboard-pro-->
