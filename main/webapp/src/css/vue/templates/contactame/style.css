@@ -1,11 +1,11 @@
 /* -------------------- Footer - INICIO -------------------- */
-/* line 5, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/footer_normal/style.sass */
+/* line 5, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/contactame/style.sass */
 #footer {
   background-color: var(--color-background-background-darkgray);
   /* -------------------- Footer - FIN -------------------- */
 }
 
-/* line 9, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/footer_normal/style.sass */
+/* line 9, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/contactame/style.sass */
 #footer div p {
   color: var(--color-gray);
 }
