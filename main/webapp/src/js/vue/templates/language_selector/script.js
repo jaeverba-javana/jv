@@ -35,7 +35,6 @@ export default function (app) {
             },
 
             cambiar(idioma) {
-                console.log(idioma);
                 cookieManager.add({
                     key: 'idioma',
                     value: idioma,

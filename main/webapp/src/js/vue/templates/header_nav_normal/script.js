@@ -15,13 +15,11 @@ export default function(app) {
         
         methods: {
 			mouseHover() {
-				console.log('segundo intento de darle click, exitoso')
 			},
 		},
 
 		beforeUpdate() {
 			//this.cambios()
-			console.log('cambio')
 		},
 
         template: '<%@include file="template.html"%>'
