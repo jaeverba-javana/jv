@@ -1,10 +1,8 @@
-from tomcat:10.0.23
+FROM tomcat:10.0.23
 
-label maintainer="jaeverba@gmil.com"
+LABEL maintainer="jaeverba@gmil.com"
 
-copy jv.war /usr/local/tomcat/webapps/
-copy jv2.war /usr/local/tomcat/webapps/
-copy jv3.war /usr/local/tomcat/webapps/
+COPY jv.war /usr/local/tomcat/webapps/
 
 CMD ["catalina.sh", "run"]
 

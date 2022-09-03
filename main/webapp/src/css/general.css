@@ -1,15 +1,17 @@
 /* line 1, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
 :root {
   --color-background-background: #000;
-  --color-background-background-darkgray: #222;
+  --color-primary: #222;
   --color-gray: #707070;
+  --color-lightgray: #d9d9d9;
   --color-background-oscuro: #0008;
   --color-background-barras: #fff;
   --color-background-perfil: #fff;
+  --color-enphasis: #007997;
   --desktop-maxwidth: 1150px;
 }
 
-/* line 11, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
+/* line 13, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
 html {
   -webkit-overflow-scrolling: auto;
   -webkit-text-size-adjust: 100%;
@@ -21,17 +23,17 @@ html {
   display: block;
 }
 
-/* line 21, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
+/* line 23, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
 html body {
   font-size: 100%;
 }
 
-/* line 26, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
+/* line 28, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
 *, *::before, *::after {
   box-sizing: border-box;
 }
 
-/* line 30, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
+/* line 32, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
 *, :after, :before, button, button:focus, input, textarea {
   -webkit-tap-highlight-color: transparent;
   box-sizing: inherit;
@@ -42,29 +44,29 @@ html body {
   user-select: none;
 }
 
-/* line 41, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
+/* line 43, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
 body, ul, li, ol, div, h1, h2, h3, h4, h5, h6, p {
   margin: 0;
   padding: 0;
   border: 0;
 }
 
-/* line 46, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
+/* line 48, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
 div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, form, p, blockquote, th, td {
   direction: ltr;
 }
 
-/* line 49, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
+/* line 51, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
 ol, ul {
   list-style: none;
 }
 
-/* line 52, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
+/* line 54, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
 a {
   text-decoration: none;
 }
 
-/* line 59, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
+/* line 61, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
 body {
   -moz-osx-font-smoothing: grayscale;
   -webkit-font-smoothing: antialiased;
@@ -72,39 +74,39 @@ body {
   display: block;
 }
 
-/* line 66, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
+/* line 68, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
 body div[id=contenedor_principal] ~ div {
   display: none;
 }
 
 /* ____________________ FUENTES - INICIO ____________________ */
-/* line 77, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
+/* line 79, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
 h1, h2, h3, h4, h5, h6, p {
   font-family: nimbus-sans, sans-serif;
 }
 
-/* line 80, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
+/* line 82, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
 h1.gordo {
   font-family: cubano, sans-serif;
 }
 
 /* ____________________ FUENTES - FIN ____________________ */
 /**/
-/* line 89, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
+/* line 91, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
 body,
 body > div,
 body > div > div {
   min-height: 100vh;
 }
 
-/* line 95, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
+/* line 97, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
 #contenedor {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
 }
 
-/* line 100, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
+/* line 102, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
 #cuerpo_contenedor {
   width: 100%;
   max-width: 1150px;
@@ -112,13 +114,13 @@ body > div > div {
   align-self: center;
 }
 
-/* line 106, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
+/* line 108, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
 #cuerpo_contenedor > * {
   width: 100%;
   height: 100%;
 }
 
-/* line 115, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
+/* line 117, ../../../Programacion/Java/projects/jv/main/webapp/src/sass/general.scss */
 .oscuro {
   background-color: var(--color-background-oscuro);
 }

@@ -17,6 +17,13 @@ var mainApp = createApp({
     template: '<%@include file="template.html"%>'
 })
 
+//capitalizar
+mainApp.config.globalProperties.$filters = {
+  capitalize (texto) {
+    return  texto.charAt(0).toUpperCase() + texto.slice(1);
+  }
+}
+
 header_normal(mainApp)
 footer_normal(mainApp)
 

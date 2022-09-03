@@ -47,6 +47,19 @@
 		<!-- TODO: Styles -->
 		<link rel="stylesheet" href="https://use.typekit.net/yym2vzw.css">
 		<link rel="stylesheet" href="<%=cab %>styles.jsp?tipo=general&style=normal">
+		
+		<script>
+    (function(d, w, c) {
+        w.SibConversationsID = '6311a0506ffbb956d14e63fa';
+        w[c] = w[c] || function() {
+            (w[c].q = w[c].q || []).push(arguments);
+        };
+        var s = d.createElement('script');
+        s.async = true;
+        s.src = 'https://conversations-widget.sendinblue.com/sib-conversations.js';
+        if (d.head) d.head.appendChild(s);
+    })(document, window, 'SibConversations');
+</script>
 	</head>
 	
 	<body id="body">
@@ -71,7 +84,7 @@
 		</script>
 		
 		
-		<script type="module" src="scripts.jsp?app=main"></script>
-        <script nomodule src="no_module.js"></script>
+		<script defer type="module" src="scripts.jsp?app=main"></script>
+        <script defer nomodule src="no_module.js"></script>
 	</body>
 </html>

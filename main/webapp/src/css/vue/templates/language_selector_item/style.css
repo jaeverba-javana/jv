@@ -26,7 +26,7 @@
   font-family: nimbus-sans, sans-serif;
   font-weight: bold;
   font-size: 20px;
-  color: #707070;
+  color: var(--color-gray);
 }
 
 /* line 27, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/language_selector_item/style.sass */

@@ -1,5 +1,13 @@
-footer(id='footer')
-	div
-		.template-about
-		.template-social-media
-		p.copyright &copy; Javier Vergara 2022 - Todos los derechos reservados
+#contactame
+    h1.titulo.gordo {{text[engine.idiomaId].contactame}}
+
+    form
+        div(v-for="(item, index) in text[engine.idiomaId].campos" :class="index")
+            //.contactame_input()
+            h4 {{$filters.capitalize(item.elemento)}}
+            input(v-if="index != exe" type="text" :placeholder="$filters.capitalize(item.elemento)")
+            <textarea v-else :placeholder="$filters.capitalize(item.elemento)"></textarea>
+            //template_contactame_inputs(:elemento="item")
+
+        div.boton
+            input(type="button" :value="text[engine.idiomaId].submit")

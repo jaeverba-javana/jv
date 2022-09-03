@@ -1,13 +1,129 @@
-/* -------------------- Footer - INICIO -------------------- */
+/* -------------------- Contactame - INICIO -------------------- */
 /* line 5, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/contactame/style.sass */
-#footer {
-  background-color: var(--color-background-background-darkgray);
-  /* -------------------- Footer - FIN -------------------- */
+#contactame {
+  width: 100%;
+  height: 100%;
 }
 
 /* line 9, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/contactame/style.sass */
-#footer div p {
+#contactame > h1 {
+  text-align: center;
+  color: var(--color-lightgray);
+  font-size: 60px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+/* line 17, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/contactame/style.sass */
+#contactame > form {
+  display: grid;
+  width: 100%;
+  row-gap: 20px;
+  column-gap: 20px;
+  padding: 0 20px;
+  grid-template-areas: "nom men" "dir men" "input input";
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+}
+
+/* line 32, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/contactame/style.sass */
+#contactame > form > .nom {
+  grid-area: nom;
+}
+
+/* line 35, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/contactame/style.sass */
+#contactame > form > .dir {
+  grid-area: dir;
+}
+
+/* line 38, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/contactame/style.sass */
+#contactame > form > .men {
+  grid-area: men;
+}
+
+/* line 41, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/contactame/style.sass */
+#contactame > form > div {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+/* line 47, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/contactame/style.sass */
+#contactame > form > div > h4 {
+  color: var(--color-enphasis);
+  font-size: 24px;
+}
+
+/* line 51, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/contactame/style.sass */
+#contactame > form > div > input {
+  min-height: 40px;
+}
+
+/* line 54, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/contactame/style.sass */
+#contactame > form > div > input,
+#contactame > form > div > textarea {
+  flex: 1 1 1px;
+  font-size: 20px;
+  padding: 10px;
+}
+
+@media (max-width: 600px) {
+  /* line 63, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/contactame/style.sass */
+  #contactame > form > div > input,
+  #contactame > form > div > textarea {
+    font-size: 18px;
+  }
+}
+
+@media (max-width: 560px) {
+  /* line 70, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/contactame/style.sass */
+  #contactame > form > div > input,
+  #contactame > form > div > textarea {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 490px) {
+  /* line 77, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/contactame/style.sass */
+  #contactame > h1 {
+    font-size: 50px;
+  }
+  /* line 79, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/contactame/style.sass */
+  #contactame > form {
+    grid-template-areas: "nom" "dir" "men" "input";
+    grid-template-rows: 1fr 1fr 2fr auto;
+    grid-template-columns: 1fr;
+  }
+  /* line 86, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/contactame/style.sass */
+  #contactame > form > div > input,
+  #contactame > form > div > textarea {
+    font-size: 18px;
+  }
+}
+
+/* line 90, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/contactame/style.sass */
+#contactame {
+  /* -------------------- Contactame - FIN -------------------- */
+}
+
+/* line 92, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/contactame/style.sass */
+#contactame > form > div.boton {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  grid-area: input;
+}
+
+/* line 98, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/contactame/style.sass */
+#contactame > form > div.boton > input[type='button'] {
+  font-size: 20px;
+  font-weight: bold;
+  border: 4px solid var(--color-enphasis);
+  text-transform: uppercase;
+  background-color: transparent;
   color: var(--color-gray);
+  padding: 5px 30px;
 }
 
 /*# sourceMappingURL=style.css.map */

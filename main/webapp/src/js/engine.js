@@ -4,7 +4,7 @@ import { Hct as HCT, argbFromHex, themeFromSourceColor, applyTheme } from "MCU";
 
 
 // Simple demonstration of HCT.
-const color = HCT.fromInt(0xff4285f4);
+const color = HCT.fromInt(0xff00ffff);
 //console.log(`Hue: ${color.hue}`);
 //console.log(`Chrome: ${color.chroma}`);
 //console.log(`Tone: ${color.tone}`);
@@ -18,13 +18,13 @@ const color = HCT.fromInt(0xff4285f4);
 const theme = themeFromSourceColor(argbFromHex('#f82506'), [
   {
     name: "custom-1",
-    value: argbFromHex("#ff0000"),
+    value: argbFromHex("#00ffff"),
     blend: true,
   },
 ]);
 
 // Print out the theme as JSON
-console.log(JSON.stringify(theme, null, 2));
+//console.log(JSON.stringify(theme, null, 2));
 
 // Check if the user has dark mode turned on
 const systemDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
