@@ -1,0 +1,65 @@
+/* -------------------- Footer - INICIO -------------------- */
+/* line 5, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/social_media/style.sass */
+#social_media {
+  width: 100%;
+  /* -------------------- Footer - FIN -------------------- */
+}
+
+/* line 8, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/social_media/style.sass */
+#social_media > div {
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+
+/* line 13, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/social_media/style.sass */
+#social_media > div > div {
+  width: 60px;
+  height: 60px;
+  min-width: 60px;
+  border: 2px solid var(--color-gray);
+  border-radius: 30px;
+  overflow: hidden;
+  transition: all 0.5s ease-in 0.2s;
+}
+
+/* line 23, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/social_media/style.sass */
+#social_media > div > div > div {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+/* line 28, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/social_media/style.sass */
+#social_media > div > div > div > div {
+  width: 56px;
+  height: 56px;
+  padding: 3px;
+  display: flex;
+}
+
+/* line 36, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/social_media/style.sass */
+#social_media > div > div > div > div > .img {
+  height: 50px;
+}
+
+/* line 39, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/social_media/style.sass */
+#social_media > div > div > div > div > .img > img {
+  height: 100%;
+}
+
+/* line 41, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/social_media/style.sass */
+#social_media > div > div > div > div > .v_line {
+  min-width: 2px;
+  height: 100%;
+  background-color: var(--color-gray);
+  margin: 0 3px;
+}
+
+/* line 47, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/social_media/style.sass */
+#social_media > div > div.sobre {
+  width: 400px;
+  transition: all 0.5s ease-out;
+}
+
+/*# sourceMappingURL=style.css.map */

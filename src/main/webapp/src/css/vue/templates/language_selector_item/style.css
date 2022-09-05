@@ -1,0 +1,42 @@
+/* line 1, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/language_selector_item/style.sass */
+#template_language_selector_item {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+/* line 8, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/language_selector_item/style.sass */
+#template_language_selector_item > div {
+  height: 40px;
+  margin: 0 18px;
+  display: flex;
+  align-items: center;
+  column-gap: 10px;
+}
+
+/* line 16, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/language_selector_item/style.sass */
+#template_language_selector_item > div img {
+  height: 100%;
+  width: 24px;
+}
+
+/* line 20, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/language_selector_item/style.sass */
+#template_language_selector_item > div h3 {
+  font-family: nimbus-sans, sans-serif;
+  font-weight: bold;
+  font-size: 20px;
+  color: var(--color-gray);
+}
+
+/* line 27, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/language_selector_item/style.sass */
+#template_language_selector_item.header {
+  height: 100%;
+}
+
+/* line 30, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/language_selector_item/style.sass */
+#template_language_selector_item.header > div {
+  margin: 18px;
+}
+
+/*# sourceMappingURL=style.css.map */

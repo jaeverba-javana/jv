@@ -1,5 +1,0 @@
-/**
- * @author Jaeverba
- *
- */
-package controller;

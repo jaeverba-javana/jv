@@ -1,1 +1,0 @@
-<%@include file="/src/css/vue/templates/header_main_normal/style.css" %>

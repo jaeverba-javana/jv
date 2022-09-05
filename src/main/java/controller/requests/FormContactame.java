@@ -1,13 +1,14 @@
 package controller.requests;
 
 import jakarta.servlet.ServletException;
-
 import jakarta.servlet.annotation.WebServlet;
 import jakarta.servlet.http.HttpServlet;
 import jakarta.servlet.http.HttpServletRequest;
 import jakarta.servlet.http.HttpServletResponse;
 import java.io.IOException;
-import controller.send_in_blue.Contact;
+import java.io.PrintWriter;
+
+import controller.send_in_blue.email.Transactional;
 
 /**
  * Servlet implementation class FormContactame
@@ -24,23 +25,15 @@ public class FormContactame extends HttpServlet {
     }
 
 	/**
-	 * @see HttpServlet#doGet(HttpServletRequest request, HttpServletResponse response)
-	 */
-	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
-		// TODO Auto-generated method stub
-		//response.getWriter().append("Served at: ").append(request.getContextPath());
-		
-		Contact.addContact();
-	}
-
-	/**
 	 * @see HttpServlet#doPost(HttpServletRequest request, HttpServletResponse response)
 	 */
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
+		PrintWriter salida = response.getWriter();
 		
-
+		//Transactional.sendContactame(request.getParameter("dir"), request.getParameter("nom"));
 		
-		//doGet(request, response);
+		salida.println("{\"estado\":"+Transactional.sendContactame(request.getParameter("dir"), request.getParameter("nom"), request.getParameter("men"))+"}");
+		
 	}
 
 }

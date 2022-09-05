@@ -1,0 +1,44 @@
+<%@ page pageEncoding="UTF-8"%>
+
+            
+{
+  "es": {
+    "campos": {
+      "dir": {
+        "autocomplete": "email",
+        "elemento": "correro",
+        "type": "email"
+      },
+      "men": {
+        "elemento": "mensaje"
+      },
+      "nom": {
+        "autocomplete": "name",
+        "elemento": "nombres",
+        "type": "text"
+      }
+    },
+    "contactame": "contáctame",
+    "submit": "enviar"
+  },
+
+  "en": {
+    "campos": {
+      "dir": {
+        "autocomplete": "email",
+        "elemento": "email address",
+        "type": "email"
+      },
+      "men": {
+        "elemento": "message"
+      },
+      "nom": {
+        "autocomplete": "name",
+        "elemento": "names",
+        "type": "text"
+      }
+    },
+    "contactame": "contact me",
+    "submit": "submit"
+  }
+}

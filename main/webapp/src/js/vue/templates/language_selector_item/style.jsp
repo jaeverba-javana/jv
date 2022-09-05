@@ -1,1 +1,0 @@
-<%@include file="/src/css/vue/templates/language_selector_item/style.css" %>

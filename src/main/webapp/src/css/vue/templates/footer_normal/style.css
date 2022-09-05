@@ -1,0 +1,29 @@
+/* -------------------- Footer - INICIO -------------------- */
+/* line 5, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/footer_normal/style.sass */
+#footer {
+  background-color: var(--color-primary);
+  display: flex;
+  justify-content: center;
+  /* -------------------- Footer - FIN -------------------- */
+}
+
+/* line 11, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/footer_normal/style.sass */
+#footer > div {
+  width: 100%;
+  max-width: 1150px;
+}
+
+/* line 15, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/footer_normal/style.sass */
+#footer > div > p {
+  color: var(--color-gray);
+  text-align: center;
+  font-size: 17px;
+}
+
+/* line 21, ../../../Programacion/Java/projects/jv/main/webapp/src/js/vue/templates/footer_normal/style.sass */
+#footer .template_social_media_contenedor {
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */
